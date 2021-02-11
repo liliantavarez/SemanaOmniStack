@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <title>Ideias - Casa Criativa</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CasaCriativa.css"> <!--Chamar CSS-->
+</head>
+<body id="page-ideas">
+
+    <div id="container">
+      <header>
+        <a href="CasaCriativa.html">      
+            <img src="logo.png" alt="Logomarca da pagina">
+        </a>
+        <nav>
+            <li><a href="CasaCriativa.html">Inicio</a></li>
+            <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+        </nav>
+      </header>
+   <section id="title">
+         <p>Em Exibição</p>
+         <h1>Ideias</h1>
+   </section>
+   <main>
+        <section id="ideas">
+               <div class="idea">
+                 <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem de curso de programacao">
+               
+                 <div class="content">
+                   <h3>Cursos de programacao</h3>
+                   <p>Estudo</p>
+                   <div class="description">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae doloribus dolores distinctio error corrupti, voluptatibus laudantium ullam, neque perferendis accusantium nostrum facere aliquam velit quisquam quibusdam voluptatum porro recusandae.
+                   </div>
+                   <a href="#">Ir para ideia</a>  
+                 </div>
+               </div>
+     
+               <div class="idea">
+                 <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de exercicios">
+               
+                 <div class="content">
+                   <h3>Dicas de treino em casa</h3>
+                   <p>Saude</p>
+                   <div class="description">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae doloribus dolores distinctio error corrupti, voluptatibus laudantium ullam, neque perferendis accusantium nostrum facere aliquam velit quisquam quibusdam voluptatum porro recusandae.
+                   </div>
+                   <a href="#">Ir para ideia</a>  
+                 </div>
+               </div>
+     
+               <div class="idea">
+                 <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="Imagem de Meditacao">
+               
+                 <div class="content">
+                   <h3>Meditacao</h3>
+                   <p>Saude Mental</p>
+                   <div class="description">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae doloribus dolores distinctio error corrupti, voluptatibus laudantium ullam, neque perferendis accusantium nostrum facere aliquam velit quisquam quibusdam voluptatum porro recusandae.
+                   </div>
+                   <a href="#">Ir para ideia</a>  
+                 </div>
+               </div>
+
+               <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729028.svg" alt="Imagem de uma churras queira">
+              
+                <div class="content">
+                  <h3>Dicas para seu churrasco</h3>
+                  <p>Alimentação</p>
+                  <div class="description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae doloribus dolores distinctio error corrupti, voluptatibus laudantium ullam, neque perferendis accusantium nostrum facere aliquam velit quisquam quibusdam voluptatum porro recusandae.
+                  </div>
+                  <a href="#">Ir para ideia</a>  
+                </div>
+              </div>
+     
+               
+     
+        </section>
+   </main>
+   <footer>
+           Com 💚 <a href="http://rocketseat.com.br" target="blank">Rocktseat</a>
+   </footer>
+    </div>
+
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+  
+            <form action=""> <!--Criação de formulario-->
+  
+              <div class="input-wrapper">
+                    <label for="tittle">Titulo da Ideia</label>
+                    <input type="text" name="title">
+              </div>
+  
+              <div class="input-wrapper">
+                  <label for="category">Categoria</label>
+                  <input type="text" name="category">
+              </div>
+  
+              <div class="input-wrapper">
+                  <label for="image">Link da Imagem</label>
+                  <input type="url" name="image">
+              </div>
+  
+              <div class="input-wrapper">
+                  <label for="description">Digite uma descrição para essa ideia</label>
+                  <textarea name="description" id="" cols="30" rows="10"></textarea>
+              </div>
+  
+              <div class="input-wrapper">
+                  <label for="link">Link da ideia</label>
+                  <input type="url" name="link">
+              </div>   
+  
+              <a href="#" onclick="onOff()">Voltar</a>
+              <button>Salvar</button>
+  
+  
+            </form>
+        </div>
+    </div>
+     
+    
+  
+      <script src="CasaCriativa.js"></script> <!-- Chamar JS --> 
+
+
+</body>
+</html>
